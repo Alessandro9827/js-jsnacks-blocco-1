@@ -8,5 +8,5 @@ else if (secondUserAge > firstUserAge) {
     console.log('Lucia è il più grande')
 }
 else {
-    console.log ('Marco e Viktor hanno la stessa età')
+    console.log ('Entrambi hanno la stessa età')
 }
