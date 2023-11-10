@@ -1,11 +1,11 @@
-const firstUserAge = parseInt(prompt('Quanti anni ha Alessandro?'))
-const secondUserAge = parseInt(prompt('Quanti anni ha Lucia?'))
+const firstUserAge = parseInt(prompt('Quanti anni ha il primo utente?'))
+const secondUserAge = parseInt(prompt('Quanti anni ha il secondo utene?'))
 
 if (firstUserAge > secondUserAge) {
-    console.log('Alessandro è il più grande')
+    console.log('Il primo utente è il più grande')
 }
 else if (secondUserAge > firstUserAge) {
-    console.log('Lucia è la più grande')
+    console.log('Il secondo utenete è il più grande')
 }
 else {
     console.log ('Entrambi hanno la stessa età')
