@@ -4,9 +4,14 @@
 const nameList = ["Ale", "Marta", "Anna", "Franco","Michele", "Lucia"];
 const userName = prompt("inserisci il tuo nome");
 
-if (nameList.includes(userName)) {
-    console.log("Sei stato invitato :)");
+let answer = false;
+
+for ( let i = 0; i < nameList.length; i++) {
+    const name = nameList[i];
+
+    if ( name.toLowerCase().trim() == userName.toLowerCase().trim()) {
+        answer = true;
+    }
 }
-else {
-    console.log("Non sei stato invitato :(");
-}
+
+console.log(answer);
